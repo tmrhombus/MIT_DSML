@@ -1,0 +1,87 @@
+
+
+
+
+
+
+Video 1.2.5  -  4:40
+A dictionary object called "data" is created and then used in the creation of a DataFrame. The statement is then made "data no longer exists as a dictionary." This is not true. The object "data" is still a dictionary even though it has been to create a DataFrame via pd.DataFrame(data). 
+
+
+Quiz 1.3.3  -  Q2
+Which statement is correct - The following statement is marked as incorrect: Scatter plot helps to understand the distribution of individual variable.
+
+Gramatical issues aside, this is a true statement. By considering the projection of a scatter plot along one axis, you will end up with exactly the distribution for that given variable. This information would be clearer if the projection itself was made rather than just considering the scatter plot, but the question uses the word "helps." Certainly you can gain *some* information about any indivudal variable <var1> by making a scatter plot of <var1> vs <var2>. 
+
+
+Quiz 1.3.5 - Q1
+Which statement is correct - The following statement is marked as incorrect: Main input in the pie plot is categorical in nature, rather than the frequency of the various categories.
+
+The grammer here is poor enough that the statement doesn't make sense. How can a dataset that gives you the frequencies of various categories be considered something other than "categorical in nature?"  
+
+
+Quiz 1.3.6 - Q1
+This statement is marked as True about histograms: We divide the numerical data into bins and plot a frequency distribution alongside a histogram.
+
+This statement is almost true, but the second part is not quite. The plotted frequency distribution *is* the histogram, is it not plotted *alongside* a histogram.  
+
+
+Quiz 1.3.14 - Q1
+This statement is marked as False about heatmaps:  Apart from correlation, heatmap also helps us study the distribution of numeric variables.
+
+This statement can be true. In the example given in the video, we only used it for correlation, but this is not its only use case. See the seaborn official documentation for an example of using a heatmap to study the distribution of numeric variables: https://seaborn.pydata.org/tutorial/color_palettes.html#vary-luminance-to-represent-numbers
+
+
+Quiz 2.1.2 - Q1
+This statement is marked as false: Inferential statistics describes the data.
+
+Inferential statistics is used to make predictions about future data drawn from the same population as the current data was. To have any hope of being accurate when it comes to future data, the predictions had better be accurate when describing the current data as well.
+
+
+Quiz 2.1.6 Q2
+The question is asked: The number of microwaves sold in an electronic store follows which type of distribution? The answer is given: discrete uniform.
+
+Not enough information is given to choose. Clearly the number of microwaves sold must be a discrete value, but without other context, it is entirely possible that the number of microwaves sold in a store could follow any one of many different types of distribution functions.
+
+
+Video 2.1.7  Timestamp 1:50
+The statement is made: "This histogram does not have clearly separated bars because as this is continuous." 
+
+This is a misleading statement. The histogram is binned into 10 bins and has thus taken a continuous variable and discretized it. A histogram can not represent a continuous distribution, only a curve can. 
+
+Timestamp 1:55
+"I cannot now count these probabilities" 
+This is exactly what you are able to do by plotting the data in a histogram. For example, bin 1 says that taking between 1 - 1.4 hours has a probability of a little over 25%.
+
+
+Quiz 2.1.7 Both Questions
+State that you should use the dataset given, but in actuality the correct numerical answers are derived from an idealized uniform distribution over the interval [1,5]. Also in Q2, 0.1999 should round to 0.200 not 0.199
+
+
+
+Quiz 2.2.6 Q5
+The correct answer is repeated 4 times as 4 separate choices.
+
+
+Quiz Stats For Data Science:
+Suppose that the heights of men in the United States are normally distributed with a mean of 65.6 inches and a standard deviation of 2.7 inches. Which of the following functions can be used to find the probability that the mean height is greater than 63.0 inches?
+
+
+
+
+
+
+
+There are 50 students in a class. The teacher found the below stats for a particular test that had maximum marks of 100
+
+ Q1(First quartile) = 60,
+
+ Q3(Third quartile) = 70 
+
+Find the range of the marks where most of the students have scored.
+
+
+What are you asking???
+
+
+
